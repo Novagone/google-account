@@ -1,0 +1,69 @@
+@import url('https://fonts.cdnfonts.com/css/google-sans?styles=20575,20581,20578,20576,20577,20573,20584,20582,20583,20574,20580,20579');
+
+
+body{
+    flex-basis: 40%;
+    background-color: white;
+    margin: 0;
+    font-family: 'Product Sans', sans-serif;
+    -ms-overflow-style: none;
+
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Product Sans Thin', sans-serif;
+    
+    
+}
+
+.top img{
+    height: 120px;
+}
+
+header img{
+    height: 25px;
+    margin: 20px;
+}
+
+
+header{
+    display: flex;
+}
+
+.search{
+    background-color: rgba(212, 212, 212, 0.315);
+    height: 50px;
+    width: 7000px;
+    margin: 10px;
+    margin-right: 600px;
+    border: none;
+    border-radius: 10px;
+    
+   
+}
+
+.top h4{
+    font-weight: 100;
+    color: grey;
+    font-family: 'Product Sans Medium', sans-serif;
+}
+
+
+.question-mark{
+    justify-content: flex-end;
+}
+
+.top h3{
+    display: inline-block;
+    color: #1a73e8;
+    margin-left: 10px;
+}
+
+.writing{
+    display: flex;
+    
+}
